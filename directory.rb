@@ -1,28 +1,21 @@
-student_count = 11
+#array holding students
+students = [ "Dr. Hannibal Lecter",
+ "Darth Vader",
+ "Nurse Ratched",
+ "Michael Corleone",
+ "Alex DeLarge",
+ "The Wicked Witch of the West",
+ "Terminator",
+ "Freddy Krueger",
+ "The Joker",
+ "Joffrey Baratheon",
+ "Norman Bates" ]
+ 
 puts "The students of Villains Academy"
 puts "--------------------------------"
-#list
-puts "Dr. Hannibal Lecter"
-puts "--"
-puts "Darth Vader"
-puts "--"
-puts "Nurse Ratched"
-puts "--"
-puts "Michael Corleone"
-puts "--"
-puts "Alex DeLarge"
-puts "--"
-puts "The Wicked Witch of the West"
-puts "--"
-puts "Terminator"
-puts "--"
-puts "Freddy Krueger"
-puts "--"
-puts "The Joker"
-puts "--"
-puts "Joffrey Baratheon"
-puts "--"
-puts "Norman Bates"
-puts "--"
+#array of students printed
+students.each do |x|
+    puts x.text
+end
 #finish caption
-puts "Overall, we have #{student_count} great students"
+puts "Overall, we have #{students.count} great students"
