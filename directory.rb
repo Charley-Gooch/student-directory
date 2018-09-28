@@ -21,3 +21,6 @@ puts "--"
 puts "Joffrey Baratheon"
 puts "--"
 puts "Norman Bates"
+print "Overall, we have "
+print 11
+puts " great students"
