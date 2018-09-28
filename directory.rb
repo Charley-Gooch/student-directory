@@ -1,3 +1,4 @@
+student_count = 11
 puts "The students of Villains Academy"
 puts "--------------------------------"
 #list
@@ -24,6 +25,4 @@ puts "--"
 puts "Norman Bates"
 puts "--"
 #finish caption
-print "Overall, we have "
-print 11
-puts " great students"
+puts "Overall, we have #{student_count} great students"
