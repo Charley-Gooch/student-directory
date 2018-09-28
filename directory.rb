@@ -1,5 +1,5 @@
 #array holding students
-students = [ "Dr. Hannibal Lecter",
+$students = [ "Dr. Hannibal Lecter",
  "Darth Vader",
  "Nurse Ratched",
  "Michael Corleone",
@@ -10,12 +10,22 @@ students = [ "Dr. Hannibal Lecter",
  "The Joker",
  "Joffrey Baratheon",
  "Norman Bates" ]
- 
-puts "The students of Villains Academy"
-puts "--------------------------------"
+
+def header 
+  puts "The students of Villains Academy"
+  puts "--------------------------------"
+end
 #array of students printed
-students.each do |x|
-    puts x.text
+def body
+  $students.each do |x|
+    puts x
+  end
 end
 #finish caption
-puts "Overall, we have #{students.count} great students"
+def footer
+  puts "Overall, we have #{$students.count} great students"
+end
+
+header()
+body()
+footer()
