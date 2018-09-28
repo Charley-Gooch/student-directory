@@ -1,5 +1,6 @@
 puts "The students of Villains Academy"
 puts "--------------------------------"
+#list
 puts "Dr. Hannibal Lecter"
 puts "--"
 puts "Darth Vader"
@@ -21,6 +22,8 @@ puts "--"
 puts "Joffrey Baratheon"
 puts "--"
 puts "Norman Bates"
+puts "--"
+#finish caption
 print "Overall, we have "
 print 11
 puts " great students"
